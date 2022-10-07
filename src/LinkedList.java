@@ -34,7 +34,7 @@ public class LinkedList<T>
             random = (int) (Math.random() * range) + 1;
             //calls the method that inserts, passing each individual random number
             generateList(random);
-            System.out.println("num = " + listLink.getInfo());
+            System.out.print(listLink.getInfo() + " ");
         }
     }
     //this method checks how many even numbers the list has

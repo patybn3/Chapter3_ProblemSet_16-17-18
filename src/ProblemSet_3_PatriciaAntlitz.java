@@ -36,9 +36,10 @@ public class ProblemSet_3_PatriciaAntlitz
         //random number to pass a parameter for contains() and remove()
         int random = (int) (Math.random() * (20 - 1)) + 1;
 
+        System.out.println("Numbers on This List:");
         newList.generateNums();
 
-        System.out.print("Even Numbers are: ");
+        System.out.print("\n\nEven Numbers are: ");
         newList.numEvens(newList.listLink);
         System.out.println("\nTotal Even Numbers: " + newList.printEvens(newList.listLink));
 
